@@ -10,7 +10,7 @@ for i in range(8):
         for k in range(8):
             points.append([i, j, k, 0])
 
-plt.ion()
+#plt.ion()
 fig = plt.figure()
 ax = plt.axes(projection='3d')
 
@@ -28,8 +28,8 @@ ax.scatter3D(xdata, ydata, zdata, color = color)
 
 plt.show()
 
-color = ["red" for i in points]
-plt.draw()
+#color = ["red" for i in points]
+#plt.draw()
 
 
 
